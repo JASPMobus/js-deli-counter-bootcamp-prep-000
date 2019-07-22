@@ -32,6 +32,6 @@ function currentLine(line) {
       line.shift()
     }
     
-    return ret;
+    return ret
   }
 }
