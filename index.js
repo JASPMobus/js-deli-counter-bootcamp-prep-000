@@ -21,9 +21,9 @@ function currentLine(line) {
   }
   
   else {
-    var ret = ""
+    var ret = "The line is currently:"
     
-    for(let i=0;i<line.length;i++) {
+    for(let i=1;i<=line.length;i++) {
       ret = ret + 
     }
   }
