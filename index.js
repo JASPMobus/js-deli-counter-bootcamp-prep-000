@@ -1,5 +1,6 @@
-function takeANumber(list, person) {
-  list.push(person)
-  var len = list.length;
-  return `Welcome, ${person}. You are number ${len} in line.`
+function takeANumber(line, person) {
+  line.push(person)
+  return `Welcome, ${person}. You are number ${line.length} in line.`
 }
+
+function nowServing(line)
