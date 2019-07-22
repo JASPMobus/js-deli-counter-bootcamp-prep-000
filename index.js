@@ -9,7 +9,7 @@ function nowServing(line) {
   }
   else {
     var serving = line[0]
-    line.unshift()
+    line.snip(1)
     return `Currently serving ${serving}.`
   }
 }
