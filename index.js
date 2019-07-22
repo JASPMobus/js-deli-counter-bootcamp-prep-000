@@ -1,3 +1,4 @@
 function takeANumber(list, person) {
-  return list.push(person)
+  var len = list.length;
+  return "Welcome ${person}, you are number ${len} in line."
 }
