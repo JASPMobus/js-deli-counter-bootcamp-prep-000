@@ -24,7 +24,7 @@ function currentLine(line) {
     var ret = "The line is currently:"
     
     for(let i=1;i<=line.length;i+=0) {
-      ret = ret + i + ". "
+      ret = ret + i + `. ${line[0]`
     }
   }
 }
