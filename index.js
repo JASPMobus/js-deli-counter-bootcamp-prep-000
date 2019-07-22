@@ -10,6 +10,6 @@ function nowServing(line) {
   else {
     var serving = line[0]
     line.unshift()
-    return "Currently serving "
+    return `Currently serving ${serving}.`
   }
 }
