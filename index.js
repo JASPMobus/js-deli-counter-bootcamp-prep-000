@@ -21,6 +21,10 @@ function currentLine(line) {
   }
   
   else {
+    var ret = ""
     
+    for(let i=0;i<line.length;i++) {
+      ret = ret + 
+    }
   }
 }
